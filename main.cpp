@@ -6,15 +6,15 @@
 using namespace std;
 
 void showMenu() {
-	cout << "\n********** MENU **********" << endl;
-	cout << "1. Square" << endl;
-	cout << "2. Rectangle" << endl;
-	cout << "3. Triangle" << endl;
-	cout << "4. Circle" << endl;
-	cout << "5. Parallelogram" << endl;
-	cout << "6. Trapezium" << endl;
-	cout << "7. Exit" << endl;
-	cout << "***************************" << endl;
+	cout << "\n********** MENU *********" << endl;
+	cout << "|  " << "1. Square" << "\t\t|" << endl;
+	cout << "|  " << "2. Rectangle" << "\t\t|" << endl;
+	cout << "|  " << "3. Triangle" << "\t\t|" << endl;
+	cout << "|  " << "4. Circle" << "\t\t|" << endl;
+	cout << "|  " << "5. Parallelogram" << "\t|" << endl;
+	cout << "|  " << "6. Trapezium" << "\t\t|" << endl;
+	cout << "|  " << "7. Exit" << "\t\t|" << endl;
+	cout << "*************************" << endl;
 }
 
 
