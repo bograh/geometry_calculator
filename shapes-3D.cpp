@@ -25,3 +25,23 @@ void cuboid() {
 	cuboidVolume = cuboid_length * cuboid_width * cuboid_height;
 	cout << "Volume of cuboid with length, " << cuboid_length << "units, width, " << cuboid_width << "units and height, " << cuboid_height << "units, is: " << cuboidVolume << " cubic units." << endl;
 }
+
+void cone() {
+
+}
+
+void cylinder() {
+
+}
+
+void sphere() {
+
+}
+
+void triangular_prism() {
+
+}
+
+void square_pyramid() {
+
+}
