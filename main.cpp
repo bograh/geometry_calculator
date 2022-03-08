@@ -20,7 +20,7 @@ void showMenu() {
 
 int main() {
 	
-	cout << "\nWelcome to Area Calculator App for 2-D shapes.\n" << endl;
+	cout << "\nWelcome to Geometry Calculator App.\n" << endl;
 	
 	int option;
 		
