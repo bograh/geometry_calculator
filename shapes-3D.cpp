@@ -27,15 +27,36 @@ void cuboid() {
 }
 
 void cone() {
-
+	double cone_height;
+	double base_radius;
+	double coneVolume;
+	cout << "Enter height of con: ";
+	cin >> cone_height;
+	cout << "Enter radius of base of cone: ";
+	cin >> base_radius;
+	coneVolume = (1 / 3) * M_PI * pow(base_radius, 2) * cone_height;
+	cout << "Volume of cone with height, " << cone_height << "units and base radius, " << base_radius << "units, is: " << coneVolume << " cubic units." << endl;
 }
 
 void cylinder() {
-
+	double cyl_height;
+	double cyl_radius;
+	double cylVolume;
+	cout << "Enter height of cylinder: ";
+	cin >> cyl_height;
+	cout << "Enter radius of base of cylinder: ";
+	cin >> cyl_radius;
+	cylVolume = M_PI * pow(cyl_radius, 2) * cyl_height;
+	cout << "Volume of cylinder with height, " << cyl_height << "units and base radius, " << cyl_radius << "units, is: " << cylVolume << " cubic units." << endl;
 }
 
 void sphere() {
-
+	double sphere_radius;
+	double sphereVolume;
+	cout << "Enter radius of sphere: ";
+	cin >> sphere_radius;
+	sphereVolume = (4 / 3) * M_PI * pow(sphere_radius, 2);
+	cout << "Volume of sphere with radius, " << sphere_radius << "units, is: " << sphereVolume << " cubic units." << endl;
 }
 
 void triangular_prism() {
